@@ -6,3 +6,4 @@ etl.iml
 gradle/
 gradlew
 gradlew.bat
+*.iml
