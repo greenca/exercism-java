@@ -8,7 +8,7 @@ public class Bob {
         if (msg.equals(msg.toUpperCase()) && (!msg.equals(msg.toLowerCase()))) {
             return "Whoa, chill out!";
         }
-        if (msg.charAt(msg.length()-1) == '?') {
+        if (msg.endsWith("?")) {
             return "Sure.";
         }
         return "Whatever.";
